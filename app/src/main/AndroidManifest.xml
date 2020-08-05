@@ -52,16 +52,27 @@
         android:label="@string/appbar_name"
         android:banner="@drawable/about_header">
 
+        <meta-data
+            android:name="app_uuid"
+            android:value="2932ca34-bb7f-4296-9cc5-ad1ce47fae5c"/>
+
         <activity
             android:label="@string/appbar_name"
             android:launchMode="singleInstance"
             android:name=".ui.activities.MainActivity"
             android:theme="@style/appCompatLight">
 
+            <meta-data
+                android:name="ru.evotor.launcher.GRANTS"
+                android:resource="@array/admin_grants" />
+
+            <meta-data
+                android:name="ru.evotor.launcher.BACKGROUND_COLOR"
+                android:value="#BF8F4D" />
+
             <intent-filter android:label="@string/appbar_name">
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <category android:name="android.intent.category.EVOTOR" />
             </intent-filter>
 
             <intent-filter>
