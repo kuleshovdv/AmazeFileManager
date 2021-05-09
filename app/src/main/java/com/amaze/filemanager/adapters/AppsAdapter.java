@@ -250,6 +250,7 @@ public class AppsAdapter extends ArrayAdapter<AppDataParcelable> {
                       app.unin(rowItem.packageName);
                     }
                     return true;
+/*
                   case R.id.play:
                     Intent intent1 = new Intent(Intent.ACTION_VIEW);
                     try {
@@ -265,6 +266,7 @@ public class AppsAdapter extends ArrayAdapter<AppDataParcelable> {
                       app.startActivity(intent1);
                     }
                     return true;
+*/
                   case R.id.properties:
                     app.startActivity(
                         new Intent(

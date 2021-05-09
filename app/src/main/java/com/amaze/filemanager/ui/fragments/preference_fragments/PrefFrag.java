@@ -69,10 +69,10 @@ public class PrefFrag extends PreferenceFragment implements Preference.OnPrefere
   private static final String[] PREFERENCE_KEYS = {
     PreferencesConstants.PREFERENCE_GRID_COLUMNS,
     PreferencesConstants.FRAGMENT_THEME,
-    PreferencesConstants.PREFERENCE_ROOTMODE,
+//    PreferencesConstants.PREFERENCE_ROOTMODE,
     PreferencesConstants.PREFERENCE_SHOW_HIDDENFILES,
-    PreferencesConstants.FRAGMENT_FEEDBACK,
-    PreferencesConstants.FRAGMENT_ABOUT,
+//    PreferencesConstants.FRAGMENT_FEEDBACK,
+//    PreferencesConstants.FRAGMENT_ABOUT,
     PreferencesConstants.FRAGMENT_COLORS,
     PreferencesConstants.FRAGMENT_FOLDERS,
     PreferencesConstants.FRAGMENT_QUICKACCESSES,
